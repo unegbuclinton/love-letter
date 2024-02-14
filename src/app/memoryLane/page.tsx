@@ -1,6 +1,7 @@
 'use client'
 import { useEffect, useRef, useState } from 'react'
 import { carousel } from '@/lib/data'
+import Link from 'next/link'
 
 const RADIUS = 750
 const FLIP_RANGE = 2.5
@@ -103,9 +104,12 @@ const CarouselFlow = () => {
           showButton ? 'mt-2' : '-mt-10'
         } transition-all duration-300 ease-in`}
       >
-        <button className='px-3 py-2 font-semibold  rounded-lg shadow-buttonShadow'>
+        <Link
+          href={'/proposal'}
+          className='px-3 py-2 font-semibold  rounded-lg shadow-buttonShadow'
+        >
           Let me show you something!
-        </button>
+        </Link>
       </div>
     </div>
   )

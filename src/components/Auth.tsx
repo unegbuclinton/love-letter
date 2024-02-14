@@ -66,8 +66,8 @@ const Auth = () => {
             showHint ? 'opacity-100' : 'opacity-0'
           } transition-all duration-200`}
         >
-          Look for the panda, here he is Vinnie the panda. If you don't see this
-          panda better drop it you are not buying anything......
+          Look for the panda, here he is Vinnie the panda. If you don&apos;t see
+          this panda better drop it you are not buying anything......
         </p>
         <p
           ref={hintRef}
