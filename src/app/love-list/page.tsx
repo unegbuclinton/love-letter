@@ -2,6 +2,7 @@
 import { loveList } from '@/lib/data'
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
+import image8 from '@/assets/image8.jpg'
 const LoveList = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [showButton, setShowButton] = useState(false)
