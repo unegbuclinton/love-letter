@@ -5,6 +5,7 @@ import { TypeAnimation } from 'react-type-animation'
 const Auth = () => {
   const [showHint, setShowHint] = useState(false)
 
+  const [showInput, setInput] = useState(false)
   const onHandleHint = () => {
     setShowHint(true)
   }
@@ -23,6 +24,12 @@ const Auth = () => {
     return () => {
       document.removeEventListener('mousedown', handleClickOutside)
     }
+  }, [])
+
+  useEffect(() => {
+    setTimeout(() => {
+      setInput(true)
+    }, 50000)
   }, [])
 
   return (
@@ -59,24 +66,30 @@ const Auth = () => {
           }}
         />
       </div>
-      <Input />
-      <div className='relative mx-auto '>
-        <p
-          className={`absolute max-w-[500px] leading-6 border border-solid px-3 py-2 hint -top-[10.5rem] -left-1 bg-white shadow-card rounded-md ${
-            showHint ? 'opacity-100' : 'opacity-0'
-          } transition-all duration-200`}
-        >
-          Look for the panda, here he is Vinnie the panda. If you don&apos;t see
-          this panda better drop it you are not buying anything......
-        </p>
-        <p
-          ref={hintRef}
-          onClick={onHandleHint}
-          className='mt-2 text-xs cursor-pointer hint p-2 border border-solid rounded-md w-fit'
-        >
-          Hint
-        </p>
-      </div>
+
+      {showInput && (
+        <>
+          <Input />
+
+          <div className='relative mx-auto '>
+            <p
+              className={`absolute max-w-[500px] leading-6 border border-solid px-3 py-2 hint -top-[10.5rem] -left-1 bg-white shadow-card rounded-md ${
+                showHint ? 'opacity-100' : 'opacity-0'
+              } transition-all duration-200`}
+            >
+              Look for the panda, here he is Vinnie the panda. If you don&apos;t
+              see this panda better drop it you are not buying anything......
+            </p>
+            <p
+              ref={hintRef}
+              onClick={onHandleHint}
+              className='mt-2 text-xs cursor-pointer hint p-2 border border-solid rounded-md w-fit'
+            >
+              Hint
+            </p>
+          </div>
+        </>
+      )}
     </div>
   )
 }
