@@ -53,8 +53,11 @@ const Proposal = () => {
         Would you be my <span className='text-secondary font-medium'>Val</span>
       </h2>
 
-      <div onClick={handleNo} className='flex gap-4 mt-5'>
-        <button className='bg-secondary text-white outline-none px-4 py-3 rounded-md border border-solid shadow-xl'>
+      <div className='flex gap-4 mt-5'>
+        <button
+          onClick={handleNo}
+          className='bg-secondary text-white outline-none px-4 py-3 rounded-md border border-solid shadow-xl'
+        >
           NO
         </button>
         <button
