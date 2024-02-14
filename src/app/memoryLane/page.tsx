@@ -108,7 +108,7 @@ const CarouselFlow = () => {
           href={'/proposal'}
           className='px-3 py-2 font-semibold  rounded-lg shadow-buttonShadow'
         >
-          Let me show you something!
+          Let me tell you something!
         </Link>
       </div>
     </div>
