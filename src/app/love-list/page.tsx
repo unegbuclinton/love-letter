@@ -2,7 +2,6 @@
 import { loveList } from '@/lib/data'
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
-import image8 from '@/assets/image8.jpg'
 const LoveList = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [showButton, setShowButton] = useState(false)
@@ -10,7 +9,7 @@ const LoveList = () => {
   const router = useRouter()
   const handleForwardClick = () => {
     if (currentIndex === loveList.length - 1) {
-      setCurrentIndex(0)
+      return
     } else {
       setCurrentIndex((prev) => prev + 1)
     }
@@ -19,7 +18,7 @@ const LoveList = () => {
   useEffect(() => {
     setTimeout(() => {
       setShowButton(true)
-    }, 8000)
+    }, 12000)
   }, [])
   const handleBackwardClick = () => {
     if (currentIndex === 0) {
@@ -35,7 +34,7 @@ const LoveList = () => {
         Hey! baby I just want you to know 💓
       </h1>
 
-      <p className=''>{loveList[currentIndex].list}</p>
+      <p className='text-center'>{loveList[currentIndex].list}</p>
       <div className='mt-10 flex justify-between items-center'>
         <img
           src='arrowLeft.svg'
@@ -48,7 +47,9 @@ const LoveList = () => {
         <img
           src='arrowRight.svg'
           alt=''
-          className='cursor-pointer'
+          className={`${
+            currentIndex === loveList.length - 1 ? 'invisible' : 'visible'
+          }  cursor-pointer`}
           onClick={handleForwardClick}
         />
       </div>

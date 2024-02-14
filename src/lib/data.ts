@@ -61,7 +61,7 @@ export const loveList = [
     list: 'Remember our truth corner?? I think we should go back there so I can say it one more time "I LOVE YOU NADINE💖", Because that\'s the only truth there is ',
   },
   {
-    list: "I don't know If I did ever told you how danm exciting momnets are when you are around me💑",
+    list: "I don't know If I did ever tell you how danm exciting moments are when you are around me💑",
   },
   {
     list: 'I sometimes find it funny, when you tell me "I WAN ENTER YOU", because I have already thought of a million ways to enter you😂  ',
