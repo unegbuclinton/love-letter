@@ -54,7 +54,7 @@ const Auth = () => {
             4000,
             "  Do you remember our ride in a Mo-cart, how we laughed and talked for hours, lost in each other's company?",
             4000,
-            " Do you remmeber our first kiss? How we stared into eachother's eye till you can wait no longer, it felt like time stopped just for us.",
+            " Do you remember our first kiss? How we stared into eachother's eye till you can wait no longer, it felt like time stopped just for us.",
             4000,
             "Let's take a drive 🚗... but you'll need a password",
           ]}

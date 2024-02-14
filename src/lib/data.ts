@@ -14,7 +14,7 @@ export const carousel = [
   },
   {
     img: '/image6.jpg',
-    info: "I don't say much how seeing you on this shirt makes me feel😩💕💕. How excited I am when you always want to show me you are wearing it. I know I don't say it but it's the best feeling😊",
+    info: "I don't say much, but how seeing you on this shirt makes me feel😩💕💕. How excited I am when you always want to show me you are wearing it. I know I don't say it but it's the best feeling😊",
   },
   {
     img: '/image7.jpg',
@@ -55,13 +55,28 @@ export const loveList = [
     list: "I write code alll day because that's what pays but if i have to stare in your eyes everyday, I don't mind, I don't care what it pays😭 ",
   },
   {
-    list: 'Having you in my life is a blessing',
+    list: "Having you in my life is a blessing, I don't say this alot but you are one best thing life gave to me😘",
   },
   {
-    list: '3Remember when I missed my chance to take you on this dinner date😓. But you stil look for a way to find me in the crowd😘. And they say make I no love you...😭 ',
+    list: 'Remember our truth corner?? I think we should go back there so I can say it one more time "I LOVE YOU NADINE💖", Because that\'s the only truth there is ',
   },
   {
-    list: '4Remember when I missed my chance to take you on this dinner date😓. But you stil look for a way to find me in the crowd😘. And they say make I no love you...😭 ',
+    list: "I don't know If I did ever told you how danm exciting momnets are when you are around me💑",
+  },
+  {
+    list: 'I sometimes find it funny, when you tell me "I WAN ENTER YOU", because I have already thought of a million ways to enter you😂  ',
+  },
+  {
+    list: 'Those moments we spent at GRA would always live rent free in my head. Because then I realised how much you actually ate from my heart💓. I stil dey wonder how my body dey see blood pump 😂',
+  },
+  {
+    list: "You are definitely a SKY FULL OF STARS, and I won't think twice giving you my heart😘",
+  },
+  {
+    list: 'You know I am not so good with words, but you are the best thing anybody can ask for😊 .....',
+  },
+  {
+    list: 'BERNDINE JACHIMMA ANIKWE I LOVE YOU 💓💓💓💓',
   },
 ]
 
