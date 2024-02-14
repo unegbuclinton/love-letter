@@ -89,7 +89,7 @@ const CarouselFlow = () => {
           <div
             onClick={() => target(index)}
             key={index}
-            style={{ backgroundImage: `url(${img.src})` }}
+            style={{ backgroundImage: `url(${img})` }}
             className='carouselflow-item'
           ></div>
         ))}
