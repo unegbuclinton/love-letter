@@ -116,11 +116,11 @@
   border: none;
   border-radius: 100px;
   outline: none;
-  color: black;
   font-family: 'Circular Std';
   opacity: 0;
   margin: 1px;
   caret-color: #a649f5;
+  background: #fff;
   font-size: 18px;
   line-height: 1.4;
   cursor: text;
